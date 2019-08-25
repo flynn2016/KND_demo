@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78cd210e50a9cc4e831a4bb52513346, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 34ac4cc64507204b8b53ec82323dcaf2
+    GuidInternal: 
+    m_lastTime: -8586349056968705768
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 14be1e9c4bcf1f419116d698d5a44af5
+    GuidInternal: 
+    m_lastTime: -8586349056967947482
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cc40e13941abeb4785a8e6cc93e72e8a
+    GuidInternal: 
+    m_lastTime: -8586349012092075673
+    List:
+    - name: Main
+      guid: 24bd9786f6baa8418f2105f7d9a0ef8b
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2512d4704ebdab47b5c26b44c33f2c22
+    GuidInternal: 
+    m_lastTime: -8586349056968406255
+    List: []
+  - PhysicalPath: Events\Music.wwu
+    ParentPhysicalPath: 
+    guid: b18f963d6f276446bfa41b0b2454d9a7
+    GuidInternal: 
+    m_lastTime: -8586349014567668241
+    List:
+    - name: BackgroundMusic
+      guid: 1d9e422ba46bb54485ce5302d586e6cd
+      id: 626769978
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: BackgroundMusic
+        ObjectType: 3
+      Path: Music\BackgroundMusic
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 45af334ef6d89d4bb3bab1e80b13c73d
+    GuidInternal: 
+    m_lastTime: -8586349056968167201
+    List: []
+  - PhysicalPath: Game Parameters\Gameplay.wwu
+    ParentPhysicalPath: 
+    guid: 7ebf0d74ac0e41489427736179a15b10
+    GuidInternal: 
+    m_lastTime: -8586349016865748341
+    List:
+    - name: AI_Distance
+      guid: 1633ba44b41046438a66c20196b966b0
+      id: 2757977523
+      PathAndIcons:
+      - ElementName: Gameplay
+        ObjectType: 12
+      - ElementName: AI_Distance
+        ObjectType: 13
+      Path: Gameplay\AI_Distance
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f8fb7ce134a5204a94d39ea897c7efa9
+    GuidInternal: 
+    m_lastTime: -8586349056967438844
+    List: []
+  - PhysicalPath: States\Music.wwu
+    ParentPhysicalPath: 
+    guid: 9ade931c0f30c2419bf9d09595eb1845
+    GuidInternal: 
+    m_lastTime: -8586349014567568357
+    List:
+    - name: Music_State
+      guid: 37d96424fbc23c4aa9585f1f46e22c51
+      id: 3826569560
+      PathAndIcons:
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music_State
+        ObjectType: 9
+      Path: Music\Music_State
+      values:
+      - name: Gameplay
+        guid: 35a8875ec685e0479fd9f9bb9dd41a0b
+        id: 89505537
+        PathAndIcons:
+        - ElementName: Gameplay
+          ObjectType: 8
+      - name: None
+        guid: 78dae64747c4c44ebf7ed6af1ce829f1
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e89a027191e5934b9776e7c970020a38
+    GuidInternal: 
+    m_lastTime: -8586349056967389277
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 01de3f214071bf4dac7e445211ee8cb1
+    GuidInternal: 
+    m_lastTime: -8586349056968057183
+    List: []
+  ExpandedItems:
+  - /KND_demo_WwiseProject
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
