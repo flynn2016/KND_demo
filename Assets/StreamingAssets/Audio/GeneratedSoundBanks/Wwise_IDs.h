@@ -11,6 +11,11 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID BACKGROUNDMUSIC_EVENT = 2011936171U;
+    } // namespace EVENTS
+
     namespace STATES
     {
         namespace MUSIC_STATE
@@ -27,13 +32,13 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID AI_DISTANCE = 2757977523U;
+        static const AkUniqueID AI_THREATLEVEL = 28229820U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BANKS
 
     namespace BUSSES

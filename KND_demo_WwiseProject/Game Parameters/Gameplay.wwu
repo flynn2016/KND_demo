@@ -3,9 +3,14 @@
 	<GameParameters>
 		<WorkUnit Name="Gameplay" ID="{740DBF7E-0EAC-4841-9427-736179A15B10}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="AI_Distance" ID="{44BA3316-10B4-4346-8A66-C20196B966B0}">
+				<GameParameter Name="AI_ThreatLevel" ID="{44BA3316-10B4-4346-8A66-C20196B966B0}">
 					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="5"/>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="100"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="100"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

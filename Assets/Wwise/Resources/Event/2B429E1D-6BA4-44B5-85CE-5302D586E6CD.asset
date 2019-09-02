@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe4e6fbf0750bf3439193f3b1928322d, type: 3}
+  m_Name: 2B429E1D-6BA4-44B5-85CE-5302D586E6CD
+  m_EditorClassIdentifier: 
+  objectName: BackgroundMusic_Event
+  id: 2011936171
+  guid: 2B429E1D-6BA4-44B5-85CE-5302D586E6CD

@@ -17,53 +17,53 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 34ac4cc64507204b8b53ec82323dcaf2
     GuidInternal: 
-    m_lastTime: -8586349056968705768
+    m_lastTime: -8586342944537142299
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 14be1e9c4bcf1f419116d698d5a44af5
     GuidInternal: 
-    m_lastTime: -8586349056967947482
+    m_lastTime: -8586342944553674289
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: cc40e13941abeb4785a8e6cc93e72e8a
     GuidInternal: 
-    m_lastTime: -8586349012092075673
+    m_lastTime: -8586342070068569988
     List:
-    - name: Main
-      guid: 24bd9786f6baa8418f2105f7d9a0ef8b
-      id: 3161908922
+    - name: Music
+      guid: 61bd5862c4dc984b8ad9c65d6065eedf
+      id: 3991942870
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Main
+      - ElementName: Music
         ObjectType: 7
-      Path: Default Work Unit\Main
+      Path: Default Work Unit\Music
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2512d4704ebdab47b5c26b44c33f2c22
     GuidInternal: 
-    m_lastTime: -8586349056968406255
+    m_lastTime: -8586342944553973601
     List: []
   - PhysicalPath: Events\Music.wwu
     ParentPhysicalPath: 
     guid: b18f963d6f276446bfa41b0b2454d9a7
     GuidInternal: 
-    m_lastTime: -8586349014567668241
+    m_lastTime: -8586342944221378961
     List:
-    - name: BackgroundMusic
+    - name: BackgroundMusic_Event
       guid: 1d9e422ba46bb54485ce5302d586e6cd
-      id: 626769978
+      id: 2011936171
       PathAndIcons:
       - ElementName: Music
         ObjectType: 12
-      - ElementName: BackgroundMusic
+      - ElementName: BackgroundMusic_Event
         ObjectType: 3
-      Path: Music\BackgroundMusic
+      Path: Music\BackgroundMusic_Event
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -72,35 +72,35 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 45af334ef6d89d4bb3bab1e80b13c73d
     GuidInternal: 
-    m_lastTime: -8586349056968167201
+    m_lastTime: -8586342944553963618
     List: []
   - PhysicalPath: Game Parameters\Gameplay.wwu
     ParentPhysicalPath: 
     guid: 7ebf0d74ac0e41489427736179a15b10
     GuidInternal: 
-    m_lastTime: -8586349016865748341
+    m_lastTime: -8586342944221369138
     List:
-    - name: AI_Distance
+    - name: AI_ThreatLevel
       guid: 1633ba44b41046438a66c20196b966b0
-      id: 2757977523
+      id: 28229820
       PathAndIcons:
       - ElementName: Gameplay
         ObjectType: 12
-      - ElementName: AI_Distance
+      - ElementName: AI_ThreatLevel
         ObjectType: 13
-      Path: Gameplay\AI_Distance
+      Path: Gameplay\AI_ThreatLevel
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f8fb7ce134a5204a94d39ea897c7efa9
     GuidInternal: 
-    m_lastTime: -8586349056967438844
+    m_lastTime: -8586342944537202099
     List: []
   - PhysicalPath: States\Music.wwu
     ParentPhysicalPath: 
     guid: 9ade931c0f30c2419bf9d09595eb1845
     GuidInternal: 
-    m_lastTime: -8586349014567568357
+    m_lastTime: -8586342944537191729
     List:
     - name: Music_State
       guid: 37d96424fbc23c4aa9585f1f46e22c51
@@ -132,16 +132,18 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: e89a027191e5934b9776e7c970020a38
     GuidInternal: 
-    m_lastTime: -8586349056967389277
+    m_lastTime: -8586342944537172069
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 01de3f214071bf4dac7e445211ee8cb1
     GuidInternal: 
-    m_lastTime: -8586349056968057183
+    m_lastTime: -8586342944537152267
     List: []
   ExpandedItems:
   - /KND_demo_WwiseProject
+  - /KND_demo_WwiseProject/SoundBanks
+  - /KND_demo_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -34,7 +34,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        print(Player.latest_enemy_time);
     }
 
     // Update is called once per frame

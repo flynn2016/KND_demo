@@ -3,9 +3,9 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{39E140CC-AB41-47EB-85A8-E6CC93E72E8A}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{8697BD24-BAF6-41A8-8F21-05F7D9A0EF8B}">
+				<SoundBank Name="Music" ID="{6258BD61-DCC4-4B98-8AD9-C65D6065EEDF}">
 					<ObjectInclusionList>
-						<ObjectRef Name="BackgroundMusic" ID="{2B429E1D-6BA4-44B5-85CE-5302D586E6CD}" WorkUnitID="{3D968FB1-276F-4664-BFA4-1B0B2454D9A7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BackgroundMusic_Event" ID="{2B429E1D-6BA4-44B5-85CE-5302D586E6CD}" WorkUnitID="{3D968FB1-276F-4664-BFA4-1B0B2454D9A7}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

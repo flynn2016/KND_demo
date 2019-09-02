@@ -1,2 +1,4 @@
 Library/
 obj/
+KND_demo_WwiseProject/*
+!KND_demo_WwiseProject/GeneratedSoundBanks/

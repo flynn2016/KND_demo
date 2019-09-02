@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2011936171	BackgroundMusic_Event			\Music\BackgroundMusic_Event	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	Music_State			\Music\Music_State	
+
+State	ID	Name	State Group			Notes
+	0	None	Music_State			
+	89505537	Gameplay	Music_State			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	28229820	AI_ThreatLevel			\Gameplay\AI_ThreatLevel	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	95248440	Stage1-A-Piano_85bpm6-4-L14M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-Piano_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-Piano_85bpm6-4-L14M		754755
+	191083202	Stage1-A-PianoDeco_85bpm6-4-L14M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-PianoDeco_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-PianoDeco_85bpm6-4-L14M		554691
+	409160532	Stage1-A-ViolaStac_85bpm6-4-L14M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-ViolaStac_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-ViolaStac_85bpm6-4-L14M		822498
+	410632158	Stage1-A-BigDaiko1_85bpm6-4-L2M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-BigDaiko2_85bpm6-4-L2M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-BigDaiko1_85bpm6-4-L2M		119806
+	436121783	Stage1-B-DecoSynth_85bpm6-4-L13M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-B-DecoSynth_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_B\Stage1-B-DecoSynth_85bpm6-4-L13M		683557
+	501222682	Stage1-B-PianoDeco_85bpm6-4-L13M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-B-PianoDeco_85bpm6-4-M4ToM7_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_B\Stage1-B-PianoDeco_85bpm6-4-L13M		249385
+	516602865	Stage1-A-HighDissonentSynth_85bpm6-4-L14M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-HighDissonentSynth_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-HighDissonentSynth_85bpm6-4-L14M		749821
+	544608613	Stage1-B-ViolaStac_85bpm6-4-L13M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-B-ViolaStac_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_B\Stage1-B-ViolaStac_85bpm6-4-L13M		830434
+	581783356	Stage1-A-Hihat_85bpm6-4-L1M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-Hihat_85bpm6-4-L1M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-Hihat_85bpm6-4-L1M		54851
+	583418917	Stage1-A-RollingDaiko_85bpm6-4-L2M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-RollingDaiko_85bpm6-4-L2M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-RollingDaiko_85bpm6-4-L2M		60148
+	682973660	Stage1-A-BassSynth_85bpm6-4-L14M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-BassSynth_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-BassSynth_85bpm6-4-L14M		711734
+	685340492	Stage1-A-BigDaiko1_85bpm6-4-L2M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-BigDaiko1_85bpm6-4-L2M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-BigDaiko1_85bpm6-4-L2M		119585
+	716887981	Stage1-A-HighHihat_85bpm6-4-L1M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-HighHihat_85bpm6-4-L1M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-HighHihat_85bpm6-4-L1M		58370
+	745557220	Stage1-A-ShakerWithSynth_85bpm6-4-L1M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-ShakerWithSynth_85bpm6-4-L1M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-ShakerWithSynth_85bpm6-4-L1M		65359
+	762705392	Stage1-A-DecoSynth_85bpm6-4-L14M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-A-DecoSynth_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_A\Stage1-A-DecoSynth_85bpm6-4-L14M		675073
+	825553640	Stage1-B-Piano_85bpm6-4-L13M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-B-Piano_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_B\Stage1-B-Piano_85bpm6-4-L13M		824117
+	964021924	Stage1-B-HighDissonentSynth_85bpm6-4-L13M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-B-HighDissonentSynth_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_B\Stage1-B-HighDissonentSynth_85bpm6-4-L13M		793936
+	1065183165	Stage1-B-BassSynth_85bpm6-4-L13M	D:\GameProjects\KND_demo\KND_demo_WwiseProject\.cache\Windows\SFX\Stage1-B-BassSynth_85bpm6-4-L14M_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Demo_Music\Stage1\Stage1_B\Stage1-B-BassSynth_85bpm6-4-L13M		723618
+

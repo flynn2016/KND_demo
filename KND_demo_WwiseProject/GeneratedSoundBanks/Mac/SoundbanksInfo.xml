@@ -16,10 +16,87 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
-			<ShortName>Main</ShortName>
-			<Path>Main.bnk</Path>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2011936171" Name="BackgroundMusic_Event" ObjectPath="\Events\Music\BackgroundMusic_Event" DurationType="Infinite"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="95248440" Language="SFX">
+					<ShortName>Stage1-A-Piano_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-A-Piano_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="191083202" Language="SFX">
+					<ShortName>Stage1-A-PianoDeco_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-A-PianoDeco_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="409160532" Language="SFX">
+					<ShortName>Stage1-A-ViolaStac_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-A-ViolaStac_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="410632158" Language="SFX">
+					<ShortName>Stage1-A-BigDaiko2_85bpm6-4-L2M.wav</ShortName>
+					<Path>SFX\Stage1-A-BigDaiko2_85bpm6-4-L2M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="436121783" Language="SFX">
+					<ShortName>Stage1-B-DecoSynth_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-B-DecoSynth_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="501222682" Language="SFX">
+					<ShortName>Stage1-B-PianoDeco_85bpm6-4-M4ToM7.wav</ShortName>
+					<Path>SFX\Stage1-B-PianoDeco_85bpm6-4-M4ToM7_9B96ECC7.wem</Path>
+				</File>
+				<File Id="516602865" Language="SFX">
+					<ShortName>Stage1-A-HighDissonentSynth_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-A-HighDissonentSynth_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="544608613" Language="SFX">
+					<ShortName>Stage1-B-ViolaStac_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-B-ViolaStac_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="581783356" Language="SFX">
+					<ShortName>Stage1-A-Hihat_85bpm6-4-L1M.wav</ShortName>
+					<Path>SFX\Stage1-A-Hihat_85bpm6-4-L1M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="583418917" Language="SFX">
+					<ShortName>Stage1-A-RollingDaiko_85bpm6-4-L2M.wav</ShortName>
+					<Path>SFX\Stage1-A-RollingDaiko_85bpm6-4-L2M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="682973660" Language="SFX">
+					<ShortName>Stage1-A-BassSynth_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-A-BassSynth_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="685340492" Language="SFX">
+					<ShortName>Stage1-A-BigDaiko1_85bpm6-4-L2M.wav</ShortName>
+					<Path>SFX\Stage1-A-BigDaiko1_85bpm6-4-L2M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="716887981" Language="SFX">
+					<ShortName>Stage1-A-HighHihat_85bpm6-4-L1M.wav</ShortName>
+					<Path>SFX\Stage1-A-HighHihat_85bpm6-4-L1M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="745557220" Language="SFX">
+					<ShortName>Stage1-A-ShakerWithSynth_85bpm6-4-L1M.wav</ShortName>
+					<Path>SFX\Stage1-A-ShakerWithSynth_85bpm6-4-L1M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="762705392" Language="SFX">
+					<ShortName>Stage1-A-DecoSynth_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-A-DecoSynth_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="825553640" Language="SFX">
+					<ShortName>Stage1-B-Piano_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-B-Piano_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="964021924" Language="SFX">
+					<ShortName>Stage1-B-HighDissonentSynth_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-B-HighDissonentSynth_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+				<File Id="1065183165" Language="SFX">
+					<ShortName>Stage1-B-BassSynth_85bpm6-4-L14M.wav</ShortName>
+					<Path>SFX\Stage1-B-BassSynth_85bpm6-4-L14M_9B96ECC7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
