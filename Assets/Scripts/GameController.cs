@@ -20,32 +20,27 @@ public class GameController : MonoBehaviour
         }
     }
     #endregion
-
     public CameraController Camera;
     public PlayerController Player;
-    public GameObject AI_prefab;
-    public List<AIController> AI_array = new List<AIController>();
+    public Flock flock_1;
+    public Flock flock_2;
+    public Flock flock_3;
     // Start is called before the first frame update
+
     void Start()
     {
-        AI_array.Add(GameObject.Instantiate(AI_prefab,new Vector3(5,5,0),Quaternion.identity).GetComponent<AIController>());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        print(Player.latest_enemy_time);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        Camera.OnFixedUpdate();
-        Player.OnFixedUpdate();
-
-        for(int i = 0; i < AI_array.Count; i++)
-        {
-            AI_array[i].OnFixedUpdate();
-        }
+        flock_1.OnUpdate();
+        flock_2.OnUpdate();
+        flock_3.OnUpdate();
+        Camera.OnUpdate();
+        Player.OnUpdate();
     }
+
+    // Update is called once per frame
+
 }

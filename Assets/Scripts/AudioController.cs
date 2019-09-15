@@ -17,7 +17,6 @@ public class AudioController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        threatLevelRTPC = GameController.Instance.Player.latest_enemy_time;
         AkSoundEngine.SetRTPCValue("AI_ThreatLevel", threatLevelRTPC);
     }
 }
